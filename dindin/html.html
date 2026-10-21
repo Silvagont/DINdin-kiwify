@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha HTML | Código na Prática</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body data-lesson="html">
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Código na Prática</a><nav><a href="index.html#cursos">Todas as trilhas</a><a href="index.html#como-funciona">Como funciona</a></nav></header>
+  <div class="lesson-layout">
+    <aside class="sidebar">
+      <a class="back-link" href="index.html#cursos">← Voltar para as trilhas</a>
+      <h2>Trilha HTML</h2><p class="small-note">Fundamentos da estrutura web</p>
+      <div class="progress-track"><div class="progress-fill"></div></div><p id="progressLabel" class="small-note">Progresso das trilhas</p>
+      <nav class="lesson-nav" aria-label="Aulas HTML">
+        <a class="active" href="#introducao">1. Introdução</a><a href="#estrutura">2. Estrutura básica</a><a href="#tags">3. Títulos e parágrafos</a><a href="#exercicio">4. Exercício</a>
+      </nav>
+      <p class="small-note" style="margin-top:24px">Marque a trilha como concluída ao terminar.</p>
+      <label><input type="checkbox" id="markComplete"> Trilha concluída</label>
+    </aside>
+    <main class="lesson-main">
+      <p class="breadcrumb">Código na Prática / HTML / Unidade 01</p>
+      <section id="introducao">
+        <p class="eyebrow">TRILHA 01 · INICIANTE</p><h1>Aprenda HTML do zero</h1>
+        <p class="lead">HTML é a base que organiza o conteúdo de uma página web. Nesta trilha, você vai aprender a estruturar páginas com elementos claros e semânticos.</p>
+        <div class="lesson-box"><h3>O que é HTML?</h3><p>HTML significa HyperText Markup Language, ou Linguagem de Marcação de Hipertexto. Ele descreve a estrutura do conteúdo que o navegador apresenta. HTML não é uma linguagem de programação: é uma linguagem de marcação.</p></div>
+      </section>
+      <section id="estrutura">
+        <h2>1. A estrutura básica de um documento</h2>
+        <p>Uma página HTML começa com uma declaração do tipo de documento, seguida pelo elemento <code>html</code>. Dentro dele, usamos <code>head</code> para informações sobre a página e <code>body</code> para o conteúdo exibido.</p>
+        <div class="code-example"><div class="code-label">index.html</div><button class="copy-button" type="button">Copiar código</button><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Minha página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+    &lt;p&gt;Esta é minha primeira página.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre></div>
+        <ul><li><code>&lt;h1&gt;</code> marca o título principal.</li><li><code>&lt;p&gt;</code> marca um parágrafo.</li><li><code>&lt;title&gt;</code> define o título exibido na aba do navegador.</li><li><code>lang="pt-BR"</code> indica o idioma principal do documento.</li></ul>
+      </section>
+      <section id="tags">
+        <h2>2. Títulos e parágrafos</h2>
+        <p>Use títulos de <code>h1</code> a <code>h6</code> de acordo com a hierarquia do conteúdo, não apenas pelo tamanho visual. Use <code>p</code> para parágrafos. Cada elemento tem um significado, o que ajuda leitores, navegadores e tecnologias assistivas.</p>
+        <div class="lesson-box"><h3>Experimente</h3><p>Altere o texto dentro de <code>&lt;h1&gt;</code> e de <code>&lt;p&gt;</code>, salve o arquivo e atualize o navegador. O texto muda sem precisar alterar o CSS.</p></div>
+      </section>
+      <section id="exercicio" class="exercise">
+        <p class="eyebrow">TESTE SEU CONHECIMENTO</p><h2>Exercício 1: quem organiza o conteúdo?</h2>
+        <p>Qual tecnologia define a estrutura e o significado do conteúdo de uma página?</p>
+        <form data-exercise data-correct="html" data-success="Correto! HTML estrutura o conteúdo. CSS cuida da apresentação visual e JavaScript adiciona comportamento." data-tryagain="Ainda não. Pense na tecnologia responsável por títulos, parágrafos, links e imagens. Tente novamente.">
+          <label><input type="radio" name="answer" value="css"> CSS</label>
+          <label><input type="radio" name="answer" value="html"> HTML</label>
+          <label><input type="radio" name="answer" value="js"> JavaScript</label>
+          <button class="button button-primary" type="submit">Conferir resposta</button><div class="feedback" aria-live="polite"></div>
+        </form>
+      </section>
+      <div class="lesson-actions"><a class="button button-primary" href="css.html">Conhecer a trilha CSS →</a><a class="button" style="background:#e7f2e9;color:#176344" href="index.html#cursos">Voltar ao painel</a></div>
+    </main>
+  </div>
+  <footer class="footer"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Código na Prática</a><p>Aprenda. Crie. Evolua.</p></footer>
+</body>
+</html>

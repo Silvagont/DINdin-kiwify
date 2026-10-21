@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trilha JavaScript | Código na Prática</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body data-lesson="javascript">
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Código na Prática</a><nav><a href="index.html#cursos">Todas as trilhas</a><a href="index.html#como-funciona">Como funciona</a></nav></header>
+  <div class="lesson-layout">
+    <aside class="sidebar"><a class="back-link" href="index.html#cursos">← Voltar para as trilhas</a><h2>Trilha JavaScript</h2><p class="small-note">Lógica e interatividade</p><div class="progress-track"><div class="progress-fill"></div></div><p id="progressLabel" class="small-note">Progresso das trilhas</p><nav class="lesson-nav" aria-label="Aulas JavaScript"><a class="active" href="#introducao">1. Introdução</a><a href="#variaveis">2. Variáveis</a><a href="#eventos">3. Eventos</a><a href="#exercicio">4. Exercício</a></nav><p class="small-note" style="margin-top:24px">Marque a trilha como concluída ao terminar.</p><label><input type="checkbox" id="markComplete"> Trilha concluída</label></aside>
+    <main class="lesson-main">
+      <p class="breadcrumb">Código na Prática / JavaScript / Unidade 01</p><section id="introducao"><p class="eyebrow">TRILHA 03 · INICIANTE</p><h1>Aprenda JavaScript do zero</h1><p class="lead">JavaScript permite que uma página responda a ações, atualize informações e ofereça experiências interativas.</p><div class="lesson-box"><h3>O que é JavaScript?</h3><p>É uma linguagem de programação muito usada para adicionar comportamento a páginas web. Com ela, podemos reagir a cliques, validar formulários e atualizar o conteúdo sem recarregar a página inteira.</p></div></section>
+      <section id="variaveis"><h2>1. Variáveis e valores</h2><p>Uma variável permite guardar um valor que será usado pelo programa. Use <code>const</code> quando não pretende reatribuir a variável e <code>let</code> quando o valor poderá mudar.</p><div class="code-example"><div class="code-label">script.js</div><button class="copy-button" type="button">Copiar código</button><pre><code>const nome = "Ana";
+let pontos = 0;
+
+pontos = pontos + 1;
+console.log(nome);
+console.log(pontos);</code></pre></div><p>O exemplo guarda um nome e aumenta a quantidade de pontos em um. O método <code>console.log</code> mostra valores no console do navegador.</p></section>
+      <section id="eventos"><h2>2. Responder a um clique</h2><p>Um evento representa algo que acontece, como um clique. O método <code>addEventListener</code> permite definir o que deve acontecer quando esse evento ocorre.</p><div class="code-example"><div class="code-label">Exemplo</div><button class="copy-button" type="button">Copiar código</button><pre><code>const botao = document.querySelector("#meuBotao");
+
+botao.addEventListener("click", () => {
+  console.log("Botão clicado!");
+});</code></pre></div><p>Para funcionar, o HTML precisa ter um elemento com <code>id="meuBotao"</code>. O seletor deve corresponder ao identificador do elemento.</p></section>
+      <section id="exercicio" class="exercise"><p class="eyebrow">TESTE SEU CONHECIMENTO</p><h2>Exercício 1: qual tecnologia responde ao clique?</h2><p>Qual tecnologia pode executar uma ação quando a pessoa clica em um botão?</p><form data-exercise data-correct="js" data-success="Correto! JavaScript pode escutar eventos e executar uma função quando o botão é clicado." data-tryagain="Ainda não. Pense na linguagem de programação usada para adicionar comportamento à página."><label><input type="radio" name="answer" value="html"> HTML</label><label><input type="radio" name="answer" value="css"> CSS</label><label><input type="radio" name="answer" value="js"> JavaScript</label><button class="button button-primary" type="submit">Conferir resposta</button><div class="feedback" aria-live="polite"></div></form></section>
+      <div class="lesson-actions"><a class="button button-primary" href="index.html#cursos">Revisar as trilhas →</a><a class="button" style="background:#e7f2e9;color:#176344" href="index.html">Voltar ao painel</a></div>
+    </main>
+  </div><footer class="footer"><a class="brand" href="index.html"><span class="brand-mark">&lt;/&gt;</span> Código na Prática</a><p>Aprenda. Crie. Evolua.</p></footer>
+</body>
+</html>

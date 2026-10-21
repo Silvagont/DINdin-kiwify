@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aprenda HTML, CSS e JavaScript na prática.">
+  <title>Código na Prática | Aprenda a programar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">&lt;/&gt;</span>
+      Código na Prática
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#cursos">Meus cursos</a>
+      <a href="#como-funciona">Como funciona</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">APRENDA FAZENDO</p>
+        <h1>Do zero ao seu <span>primeiro site.</span></h1>
+        <p class="hero-text">
+          Aprenda HTML, CSS e JavaScript com aulas diretas,
+          exemplos práticos e exercícios para testar o que aprendeu.
+        </p>
+        <a class="button button-light" href="#cursos">
+          Escolher uma trilha <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustração de código em um editor" role="img">
+        <div class="editor-window">
+          <div class="editor-top">
+            <i></i><i></i><i></i>
+            <span>meu-primeiro-site.html</span>
+          </div>
+          <pre><code><b>&lt;html&gt;</b>
+  &lt;body&gt;
+    <em>&lt;h1&gt;</em>Olá, mundo!<em>&lt;/h1&gt;</em>
+    &lt;p&gt;Estou aprendendo.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </div>
+
+        <div class="floating-tag tag-html">HTML</div>
+        <div class="floating-tag tag-css">CSS</div>
+        <div class="floating-tag tag-js">JS</div>
+      </div>
+    </section>
+
+    <section class="course-section" id="cursos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SUA JORNADA COMEÇA AQUI</p>
+          <h2>Escolha o que quer aprender</h2>
+        </div>
+        <p>
+          Estude no seu ritmo. Você pode voltar às aulas sempre que precisar.
+        </p>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-icon html-icon">
+            <img src="assets/html.jpg" alt="HTML">
+          </div>
+          <p class="course-level">TRILHA 01 · INICIANTE</p>
+          <h3>HTML</h3>
+          <p>
+            Aprenda a estruturar páginas com títulos, parágrafos,
+            links, imagens e formulários.
+          </p>
+          <div class="course-meta">
+            <span>8 aulas</span>
+            <span>Exercícios práticos</span>
+          </div>
+          <a class="button button-primary" href="html.html">
+            Acessar trilha <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="course-card">
+          <div class="course-icon css-icon">
+            <img src="assets/css.jpg" alt="CSS">
+          </div>
+          <p class="course-level">TRILHA 02 · INICIANTE</p>
+          <h3>CSS</h3>
+          <p>
+            Transforme páginas simples com cores, tipografia,
+            cartões e layouts responsivos.
+          </p>
+          <div class="course-meta">
+            <span>8 aulas</span>
+            <span>Desafios visuais</span>
+          </div>
+          <a class="button button-primary" href="css.html">
+            Acessar trilha <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="course-card">
+          <div class="course-icon js-icon">
+            <img src="assets/java-script.jpg" alt="JavaScript">
+          </div>
+          <p class="course-level">TRILHA 03 · INICIANTE</p>
+          <h3>JavaScript</h3>
+          <p>
+            Use variáveis, condições e eventos para dar vida
+            e interatividade ao seu site.
+          </p>
+          <div class="course-meta">
+            <span>8 aulas</span>
+            <span>Desafios de lógica</span>
+          </div>
+          <a class="button button-primary" href="javascript.html">
+            Acessar trilha <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-section" id="como-funciona">
+      <div>
+        <p class="eyebrow">PASSO A PASSO</p>
+        <h2>Aprenda. Pratique. Construa.</h2>
+        <p>
+          Cada trilha combina explicações simples, exemplos de código,
+          exercícios com correção e um pequeno projeto para consolidar
+          o aprendizado.
+        </p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span>01</span>
+          <div>
+            <h3>Estude uma aula</h3>
+            <p>Entenda um conceito por vez, sem pressa.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span>02</span>
+          <div>
+            <h3>Teste o código</h3>
+            <p>Faça alterações e veja o resultado no navegador.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span>03</span>
+          <div>
+            <h3>Resolva o exercício</h3>
+            <p>Confira a explicação e avance quando estiver pronto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">&lt;/&gt;</span>
+      Código na Prática
+    </a>
+    <p>Aprenda. Crie. Evolua.</p>
+  </footer>
+</body>
+</html>

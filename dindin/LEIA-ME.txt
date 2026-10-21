@@ -1,0 +1,19 @@
+CÓDIGO NA PRÁTICA - PROTÓTIPO DA PLATAFORMA
+
+COMO ABRIR
+1. Extraia todos os arquivos do ZIP para a mesma pasta.
+2. Abra index.html no navegador.
+3. Clique em HTML, CSS ou JavaScript para entrar na respectiva trilha.
+4. Teste o exercício de múltipla escolha em cada página.
+5. Marque uma trilha como concluída para testar o progresso local.
+
+O QUE ESTE PROTÓTIPO JÁ FAZ
+- Página inicial com três trilhas separadas.
+- Links para páginas individuais de HTML, CSS e JavaScript.
+- Exemplos de código com botão de copiar.
+- Exercícios com feedback correto/incorreto.
+- Marcação de conclusão salva localmente no navegador.
+- Layout responsivo para celular e computador.
+
+LIMITAÇÕES IMPORTANTES
+Este é um protótipo front-end. Não tem login, controle real de acesso pago, banco de dados, sincronização entre dispositivos ou integração com a Kiwify. A marcação de conclusão fica apenas no navegador usado. Antes de vender como plataforma com acesso restrito, será necessário implementar hospedagem e controle de acesso apropriados ou entregar o conteúdo dentro de uma área de membros compatível.
